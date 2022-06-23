@@ -1,2 +1,4 @@
-#!/bin/bash
-mv src*[A-Z]* /tmp/u/
+#!/bin/bash 
+find . -0x00-shell_basics '[[:upper:]]*' -exec mv -t ~/tmp/u {} +
+
+
